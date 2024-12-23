@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a6bb17a-d4e5-4600-adc9-aede608cb0d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/DeliveryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/config/JacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/controller/DeliveryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/dto/DeliverySlotDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/event/DeliveryEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/event/ResultEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/kafka/KafkaDeliveryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/model/DeliverySlot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/model/TransactionLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/repository/DeliverySlotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/repository/TransactionLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/service/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/java/com/denisenko/service/TransactionLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/test/java/com/denisenko/ContainerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delivery-service/src/test/java/com/denisenko/DeliverySlotRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/build-jar.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/build-push-script.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/cleanup-images.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/dto/StockDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/event/InventoryEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/event/OrderLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/event/ResultEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/kafka/KafkaInventoryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/model/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/model/TransactionLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/repository/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/repository/TransactionLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/denisenko/service/TransactionLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/dto/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/dto/OrderLineItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/event/DeliveryEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/event/InventoryEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/event/PaymentEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/event/ResultEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/model/OrderLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/model/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/CachedStateMachineFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/OrderEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/SagaCoordinator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/SagaOrchestrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/SagaStateMachineConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/AbstractAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/BookDeliveryAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/BookDeliveryFailureAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/PaymentAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/PaymentFailureAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/ReserveStockAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/ReserveStockFailureAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/denisenko/ContainerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/denisenko/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/PaymentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/dto/AccountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/event/PaymentEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/event/ResultEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/kafka/KafkaPaymentListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/model/TransactionLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/repository/TransactionLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/java/com/denisenko/service/TransactionLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/.helmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/job.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/secret.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/service-db.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/templates/statefulset.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transaction-chart/values.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2pkxEVzHq8tTV9HAgRkK8ydujB4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.DeliverySlotRepositoryTest.testFindFirstByDeliveryTimeAndReservedFalse.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.OrderControllerTest.testStartSagaThroughWebRequest.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.order-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.order-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study/OTUS/distributed-transaction/delivery-service&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\OTUS\distributed-transaction\delivery-service" />
+      <recent name="C:\study\OTUS\distributed-transaction\payment-service" />
+      <recent name="C:\study\OTUS\distributed-transaction\order-service" />
+      <recent name="C:\study\OTUS\distributed-transaction\transaction-chart\charts\payment-service" />
+      <recent name="C:\study\OTUS\distributed-transaction\transaction-chart\charts\order-service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\OTUS\distributed-transaction\payment-service" />
+      <recent name="C:\study\OTUS\distributed-transaction\delivery-service" />
+      <recent name="C:\study\OTUS\distributed-transaction\inventory-service" />
+      <recent name="C:\study\OTUS\distributed-transaction\order-service" />
+      <recent name="C:\study\OTUS\distributed-transaction\transaction-chart\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.denisenko" />
+      <recent name="com.denisenko.service" />
+      <recent name="com.denisenko.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderControllerTest.testStartSagaThroughWebRequest">
+    <configuration name="DeliverySlotRepositoryTest.testFindFirstByDeliveryTimeAndReservedFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="delivery-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.denisenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.denisenko" />
+      <option name="MAIN_CLASS_NAME" value="com.denisenko.DeliverySlotRepositoryTest" />
+      <option name="METHOD_NAME" value="testFindFirstByDeliveryTimeAndReservedFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.testStartSagaThroughWebRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.denisenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.denisenko" />
+      <option name="MAIN_CLASS_NAME" value="com.denisenko.OrderControllerTest" />
+      <option name="METHOD_NAME" value="testStartSagaThroughWebRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderControllerTest.testStartSagaThroughWebRequest" />
+        <item itemvalue="JUnit.DeliverySlotRepositoryTest.testFindFirstByDeliveryTimeAndReservedFalse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a6bb17a-d4e5-4600-adc9-aede608cb0d3" name="Changes" comment="" />
+      <created>1733323765230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733323765230</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/ReserveStockAction.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-service/src/main/java/com/denisenko/statemachine/action/BookDeliveryAction.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
